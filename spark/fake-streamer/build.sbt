@@ -8,11 +8,12 @@ lazy val root = (project in file("."))
   )
 
 libraryDependencies ++= Seq(
-  "com.amazonaws" % "aws-java-sdk" % "1.12.183",
+  "com.amazonaws" % "aws-java-sdk" % "1.12.187",
 )
 
 val SparkVersion = "3.2.1"
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % SparkVersion,
+  "org.apache.spark" %% "spark-sql" % SparkVersion,
   "org.apache.spark" %% "spark-streaming" % SparkVersion,
 )
