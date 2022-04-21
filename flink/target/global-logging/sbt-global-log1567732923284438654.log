@@ -1,0 +1,59 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run localhost 9999, Some(c9860363-4e24-44f9-943a-6d92c0b67b42), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mrunning (fork) awn.WordCount localhost 9999[0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: Class path contains multiple SLF4J bindings.[0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: Found binding in [jar:file:/Users/tazik.shahjahan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class][0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: Found binding in [jar:file:/Users/tazik.shahjahan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class][0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.[0m
+[0m[[0m[31merror[0m] [0m[0mSLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder][0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.692 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ - +++ Cleaning closure <function1> (awn.WordCount$$anonfun$1) +++[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.718 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + declared fields: 1[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.719 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -      public static final long awn.WordCount$$anonfun$1.serialVersionUID[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.719 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + declared methods: 2[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.720 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -      public final java.lang.Object awn.WordCount$$anonfun$1.apply(java.lang.Object)[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.721 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -      public final scala.collection.mutable.ArrayOps awn.WordCount$$anonfun$1.apply(java.lang.String)[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.721 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + inner classes: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.721 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + outer classes: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.721 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + outer objects: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.722 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + populating accessed fields because this is the starting closure[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.725 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + fields accessed by starting closure: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.726 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + there are no enclosing objects![0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.726 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  +++ closure <function1> (awn.WordCount$$anonfun$1) is now cleaned +++[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.741 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ - +++ Cleaning closure <function1> (awn.WordCount$$anonfun$2) +++[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.745 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + declared fields: 1[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -      public static final long awn.WordCount$$anonfun$2.serialVersionUID[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + declared methods: 2[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -      public final java.lang.Object awn.WordCount$$anonfun$2.apply(java.lang.Object)[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -      public final scala.Tuple2 awn.WordCount$$anonfun$2.apply(java.lang.String)[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + inner classes: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + outer classes: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + outer objects: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.746 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + populating accessed fields because this is the starting closure[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.747 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + fields accessed by starting closure: 0[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.747 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  + there are no enclosing objects![0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:21.747 [main] DEBUG org.apache.flink.api.scala.ClosureCleaner$ -  +++ closure <function1> (awn.WordCount$$anonfun$2) is now cleaned +++[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:22.433 [main] INFO org.apache.flink.api.java.utils.PlanGenerator - The job has 0 registered types and 0 default Kryo serializers[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:22.434 [main] DEBUG org.apache.flink.api.java.utils.PlanGenerator - Registered Kryo types: [][0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:22.434 [main] DEBUG org.apache.flink.api.java.utils.PlanGenerator - Registered Kryo with Serializers types: [][0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:22.434 [main] DEBUG org.apache.flink.api.java.utils.PlanGenerator - Registered Kryo with Serializer Classes types: [][0m
+[0m[[0m[31merror[0m] [0m[0mException in thread "main" java.lang.IllegalStateException: No ExecutorFactory found to execute the application.[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:22.434 [main] DEBUG org.apache.flink.api.java.utils.PlanGenerator - Registered Kryo default Serializers: [][0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.core.execution.DefaultExecutorServiceLoader.getExecutorFactory(DefaultExecutorServiceLoader.java:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.ExecutionEnvironment.executeAsync(ExecutionEnvironment.java:1043)[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:22.434 [main] DEBUG org.apache.flink.api.java.utils.PlanGenerator - Registered Kryo default Serializers Classes [][0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.ExecutionEnvironment.execute(ExecutionEnvironment.java:958)[0m
+[0m[[0m[0minfo[0m] [0m[0m10:25:22.434 [main] DEBUG org.apache.flink.api.java.utils.PlanGenerator - Registered POJO types: [][0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.ExecutionEnvironment.execute(ExecutionEnvironment.java:942)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.DataSet.collect(DataSet.java:417)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.DataSet.print(DataSet.java:1748)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.scala.DataSet.print(DataSet.scala:1864)[0m
+[0m[[0m[31merror[0m] [0m[0m	at awn.WordCount$.main(WordCount.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at awn.WordCount.main(WordCount.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Nonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Mar. 25, 2022, 10:25:22 a.m.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])[0m

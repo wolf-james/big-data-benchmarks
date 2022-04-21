@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run localost 9999, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mrunning (fork) awn.SocketTextStreamWordCount localost 9999[0m
+[0m[[0m[31merror[0m] [0m[0mException in thread "main" java.lang.IllegalStateException: No ExecutorFactory found to execute the application.[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.core.execution.DefaultExecutorServiceLoader.getExecutorFactory(DefaultExecutorServiceLoader.java:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.executeAsync(StreamExecutionEnvironment.java:2033)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.execute(StreamExecutionEnvironment.java:1931)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.streaming.api.environment.LocalStreamEnvironment.execute(LocalStreamEnvironment.java:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.execute(StreamExecutionEnvironment.java:1917)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.streaming.api.scala.StreamExecutionEnvironment.execute(StreamExecutionEnvironment.scala:839)[0m
+[0m[[0m[31merror[0m] [0m[0m	at awn.SocketTextStreamWordCount$.main(SocketTextStreamWordCount.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at awn.SocketTextStreamWordCount.main(SocketTextStreamWordCount.scala)[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Nonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 8 s, completed 29-Mar-2022 6:32:15 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

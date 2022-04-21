@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: ad4584ae19fd9112d73023501677cf4f52be4cb8[0m
+[0m[[0m[33mwarn[0m] [0m[0mIgnored unknown package option FixedTimestamp(Some(1262304000000))[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/tazik.shahjahan/second-flink-example/target/scala-2.11/Flink Project-assembly-0.1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/Job$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/Job$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/Job.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/Job.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount$$anon$2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount$$anon$2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount$$anon$2$$anonfun$createSerializer$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount$$anon$2$$anonfun$createSerializer$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/SocketTextStreamWordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/SocketTextStreamWordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/WordCount$$anon$2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/WordCount$$anon$2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/WordCount$$anon$2$$anonfun$createSerializer$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/WordCount$$anon$2$$anonfun$createSerializer$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/WordCount$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/WordCount$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/WordCount$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/WordCount$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/WordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/WordCount$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/WordCount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	awn/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tazik.shahjahan/second-flink-example/target/streams/_global/assemblyOption/_global/streams/assembly/9d4e6953cce0ac14e48f162ca489f0ecfa624b8a_dir/awn/WordCount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

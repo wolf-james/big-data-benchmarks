@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/tazik.shahjahan/second-flink-example/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mrunning (fork) awn.WordCount [0m
+[0m[[0m[31merror[0m] [0m[0m[main] INFO org.apache.flink.api.java.utils.PlanGenerator - The job has 0 registered types and 0 default Kryo serializers[0m
+[0m[[0m[31merror[0m] [0m[0mException in thread "main" java.lang.IllegalStateException: No ExecutorFactory found to execute the application.[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.core.execution.DefaultExecutorServiceLoader.getExecutorFactory(DefaultExecutorServiceLoader.java:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.ExecutionEnvironment.executeAsync(ExecutionEnvironment.java:1043)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.ExecutionEnvironment.execute(ExecutionEnvironment.java:958)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.ExecutionEnvironment.execute(ExecutionEnvironment.java:942)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.DataSet.collect(DataSet.java:417)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.java.DataSet.print(DataSet.java:1748)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.flink.api.scala.DataSet.print(DataSet.scala:1864)[0m
+[0m[[0m[31merror[0m] [0m[0m	at awn.WordCount$.main(WordCount.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at awn.WordCount.main(WordCount.scala)[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Nonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 48 s, completed 28-Mar-2022 4:05:09 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
