@@ -1,0 +1,2 @@
+prometheus-client==0.7.1
+fluvio==0.12.5
