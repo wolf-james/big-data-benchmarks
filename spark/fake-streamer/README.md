@@ -13,3 +13,5 @@ helm install spark --set service.type=LoadBalancer --set service.loadBalancerIP=
 Populate `Server.scala` with the required AWS values. Then run the server.
 
 With the Spark cluster running, run the `SparkClient.scala` program after the server has been started.
+
+Navigate to [localhost](http://localhost) to view the Web UI and [here](http://localhost/metrics) to view the cluster metrics.
