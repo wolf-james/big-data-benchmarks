@@ -1,6 +1,5 @@
 import org.apache.spark.sql.functions.{from_json, sum, window}
 import org.apache.spark.sql.{Dataset, Encoders, SparkSession}
-
 import java.sql.Timestamp
 
 object SparkClient extends App {
