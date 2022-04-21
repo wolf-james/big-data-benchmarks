@@ -1,3 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
-[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:///Users/tazik.shahjahan/.sbt/1.0/server/05581f5269dd6a2b7a39/sock. java.io.IOException: org.scalasbt.ipcsocket.NativeErrorException: [48] Address already in use[0m

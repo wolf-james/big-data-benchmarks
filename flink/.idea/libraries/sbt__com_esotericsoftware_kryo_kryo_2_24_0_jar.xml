@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sbt: com.esotericsoftware.kryo:kryo:2.24.0:jar">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
